@@ -117,7 +117,10 @@ body {
 }
         
 .flower-name {
-    /*text-align: center;
+    /* Properties hidden for cleaner look - script depends on flower-name for clock to function.
+    Needs improvement.
+    
+    text-align: center;
     margin-top: 0.6rem;
     color: #b57fa9;
     font-family: 'DotGothic16', monospace;
