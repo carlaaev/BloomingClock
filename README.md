@@ -6,7 +6,7 @@ Live Site: https://carlaaev.github.io/BloomingClock/
 ## 🌷 Concept:
 Intead of displaying time in traditional numerals, it uses natural growth as a time indicator. Each month consisting of 12 flower frames, 3 per week. Watch your main birth flower bloom alongside its secondary flowers to represent the passage of weeks. From a simple pot to full glory, every 2-3 days a new frame appears.
 
-![sketch](https://github.com/carlaaev/BloomingClock/blob/main/photo2.jpg)
+![Sketch](sketches/photo2.jpg)
 
 ## 🌿 Monthly Flowers:
 January: Primary - Carnation ; Secondary - Snowdrop
@@ -22,7 +22,7 @@ October: Primary - Mangold ; Secondary - Cosmos
 November: Primary - Chrysanthemum ; Secondary - Peony
 December: Primary - Narcissus ; Secondary - Holly
 
-![visual layout](https://github.com/carlaaev/BloomingClock/blob/main/Board.jpg)
+![Visual Layout](sketches/Board.jpg)
 
 ## 🌺 Functionality:
 - Pure HTML/CSS/JavaScript
