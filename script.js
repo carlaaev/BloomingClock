@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("dayOfMonth").textContent = day;
 
         const flowerImg = document.getElementById("flowerImage");
-        const imagePath = `flowers/${flower.prefix}${frame}.png`;
+        const imagePath = `assets/flowers/${flower.prefix}${frame}.png`;
         flowerImg.src = imagePath;
         flowerImg.alt = `${flower.name} - stage ${frame}`;
         console.log(`🌸 Showing ${imagePath}`);

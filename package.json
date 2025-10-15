@@ -1,16 +1,37 @@
-
 {
   "name": "blooming-clock",
   "version": "1.0.0",
   "description": "A clock that represents time through progressive floral growth and seasonal transformation.​ Inpired by dreamy, y2k desktop apps.",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge-publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Carla Epifanio",
   "license": "MIT",
   "devDependencies": {
+    "@electron-forge/cli": "^7.10.2",
+    "@electron-forge/maker-deb": "^7.10.2",
+    "@electron-forge/maker-rpm": "^7.10.2",
+    "@electron-forge/maker-zip": "^7.10.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.10.2",
+    "@electron-forge/plugin-fuses": "^7.10.2",
+    "@electron-forge/publisher-github": "^7.10.2",
+    "@electron/fuses": "^1.8.0",
     "electron": "^38.2.2"
+  },
+  "build": {
+    "appId": "com.github.carlaaev.BloomingClock",
+    "icon": "build/icon.png",
+    "win": {
+      "icon": "build/icon.ico"
+    }
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1",
+    "update-electron-app": "^3.1.1"
   }
 }
