@@ -1,0 +1,16 @@
+
+{
+  "name": "blooming-clock",
+  "version": "1.0.0",
+  "description": "A clock that represents time through progressive floral growth and seasonal transformation.​ Inpired by dreamy, y2k desktop apps.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carla Epifanio",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^38.2.2"
+  }
+}

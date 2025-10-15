@@ -17,9 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function updateClock() {
         const now = new Date();
-        const dayNames = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
         const monthNames = Object.keys(flowers);
-        const dayName = dayNames[now.getDay()];
         const monthName = monthNames[now.getMonth()];
         const day = now.getDate();
         const flower = flowers[monthName];
@@ -48,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     updateClock();
 
     // ===============================
-    // Background Audio
+    // Background Audio - need fixing
     // ===============================
     const audio = new Audio("sound/music.mp3");
     audio.loop = true;
