@@ -31,7 +31,6 @@ December: Primary - Narcissus ; Secondary - Holly
 
 
 ## 🍃 Future Improvements/Ideas:
-- Implement electron.js to make the project into an actual desktop/web app
 - Improve JavaScript's date identification system
 - Export as screensaver
 - Finalise all month assets
